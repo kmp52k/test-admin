@@ -11,5 +11,44 @@
       "StackId": "arn:aws:cloudformation:ap-south-1:926952234663:stack/amplify-testadmin-dev-231033/07a26560-9fd0-11ec-8f8c-06b5fe744600",
       "AmplifyAppId": "d1nwd99ylu3qrf"
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testadmin-prod-05543-authRole",
+      "UnauthRoleArn": "arn:aws:iam::926952234663:role/amplify-testadmin-prod-05543-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::926952234663:role/amplify-testadmin-prod-05543-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-testadmin-prod-05543-deployment",
+      "UnauthRoleName": "amplify-testadmin-prod-05543-unauthRole",
+      "StackName": "amplify-testadmin-prod-05543",
+      "StackId": "arn:aws:cloudformation:ap-south-1:926952234663:stack/amplify-testadmin-prod-05543/b6f7ec20-9fde-11ec-a341-0689a0c3986a",
+      "AmplifyAppId": "d1nwd99ylu3qrf"
+    }
+  },
+  "qa": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testadmin-qa-05705-authRole",
+      "UnauthRoleArn": "arn:aws:iam::926952234663:role/amplify-testadmin-qa-05705-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::926952234663:role/amplify-testadmin-qa-05705-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-testadmin-qa-05705-deployment",
+      "UnauthRoleName": "amplify-testadmin-qa-05705-unauthRole",
+      "StackName": "amplify-testadmin-qa-05705",
+      "StackId": "arn:aws:cloudformation:ap-south-1:926952234663:stack/amplify-testadmin-qa-05705/e7b3d040-9fde-11ec-a094-0af867e205d0",
+      "AmplifyAppId": "d1nwd99ylu3qrf"
+    }
+  },
+  "uat": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testadmin-uat-05831-authRole",
+      "UnauthRoleArn": "arn:aws:iam::926952234663:role/amplify-testadmin-uat-05831-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::926952234663:role/amplify-testadmin-uat-05831-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-testadmin-uat-05831-deployment",
+      "UnauthRoleName": "amplify-testadmin-uat-05831-unauthRole",
+      "StackName": "amplify-testadmin-uat-05831",
+      "StackId": "arn:aws:cloudformation:ap-south-1:926952234663:stack/amplify-testadmin-uat-05831/1af6fb80-9fdf-11ec-8ba1-0af549243c60",
+      "AmplifyAppId": "d1nwd99ylu3qrf"
+    }
   }
 }
